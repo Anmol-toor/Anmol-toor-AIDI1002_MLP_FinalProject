@@ -7,6 +7,9 @@ This repository implements a Transformer-based neural network inspired by the pr
 - Visualization of actual and predicted sigmoid values.
 - Analysis of training loss and model performance.
 
+ ## Dataset
+The dataset used in this project is the [Electric Power Consumption Dataset](https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set). It provides comprehensive time-series data that can be utilized for modeling and prediction tasks.
+
 ## How to Run
 1. Clone the repository.
 2. Install the following dependencies:
@@ -15,7 +18,8 @@ This repository implements a Transformer-based neural network inspired by the pr
    - PyTorch
    - Matplotlib
    - NumPy
-3. Open the `Transformer.ipynb` file in Jupyter Notebook and run the cells sequentially to train the model and visualize results.
+3. Download the dataset from [here](https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set) and place it in the project directory.
+4. Open the `Transformer.ipynb` file in Jupyter Notebook and run the cells sequentially to train the model and visualize results.
 
 ## Results
 The model's predictions deviate significantly from the actual sigmoid function, highlighting challenges in training Transformers for such tasks.
